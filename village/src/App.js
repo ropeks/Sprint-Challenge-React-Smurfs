@@ -67,8 +67,11 @@ class App extends Component {
     return (
       <div className="App">
         <nav>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/add">Add Smurf</NavLink>
+          <div className="nav-container">
+            <NavLink className="nav-link" activeClassName="active" to="/"><div>Home</div></NavLink>
+            <NavLink className="nav-link" activeClassName="active" to="/add"><div>Add Smurf</div></NavLink>
+          </div>
+          
         </nav>
 
         <Route

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import '../App.css';
 
 class SmurfForm extends Component {
 
   render() {
     return (
       <div className="SmurfForm">
-        <form onSubmit={this.props.add}>
+        <form onSubmit={this.props.add} autoComplete="off">
           <input
             onChange={this.props.change}
             placeholder="name"
