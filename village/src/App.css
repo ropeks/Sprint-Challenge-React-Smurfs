@@ -1,3 +1,85 @@
 .App {
   text-align: center;
 }
+
+/* navigation */
+
+nav {
+  display: flex;
+  justify-content: space-around ;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link div {
+  width: fit-content;
+  font-weight: 700;
+  margin: 10px 5px 0 5px;
+  padding: 5px;
+  border-radius: 3%;
+  border: 2.5px solid gray;
+  color: rgb(99, 99, 99);
+}
+
+.nav-link div:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
+
+/* form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+}
+
+form input {
+  text-align: center;
+  margin: 5px;
+  border: 0;
+  border-bottom: 1px solid;
+  border-radius: 3%;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-weight: 700;
+  margin: 10px auto;
+  width: 150px;
+  height: 30px;
+  border: 2.5px solid;
+  color: rgb(99, 99, 99);
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2.5px solid rgb(99, 99, 99);
+  color: white;
+  background-color: rgb(99, 99, 99);
+}
+
+/* Smurfs */
+
+ul {
+  padding-left: 0;
+}
+
+.Smurf {
+  width: 300px;
+  margin: 10px auto;
+  border: 2px solid;
+  border-radius: 3%;
+}
